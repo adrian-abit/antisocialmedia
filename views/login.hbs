@@ -1,0 +1,31 @@
+<div id="alerts">
+
+</div>
+
+<div id="content">
+    <div id="loginwrapper">
+        <div id="login">
+            <div id="loginheader">
+                <h1>Login</h1>
+            </div>
+            <div id="loginform">
+                <form onsubmit="loginEvent(event)">
+                    <input id="usermail" type="email" placeholder="E-Mail" required>
+                    <input id="userpassword" type="password" placeholder="Password (8+ characters)" pattern="^.{8,}$"
+                        required>
+                    <button>Log in</button>
+                    <div style="text-align: center;">
+                        <div style="display: inline-block;" class="g-recaptcha" data-sitekey="6LcspF8aAAAAAIKaAvrWV_tT24LwXZgc2APCKyP4"></div>
+                    </div>
+                </form>
+                <br>
+                <div id="options">
+                    <a href="/loggedout">Can't log in?</a>
+                    <a href="/register">Want to register?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="login.js"></script>

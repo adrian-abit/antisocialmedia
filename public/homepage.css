@@ -1,0 +1,47 @@
+body {
+    background: rgb(147, 212, 253);
+    background: -moz-linear-gradient(147deg, rgba(147, 212, 253, 1) 0%, rgba(250, 179, 190, 1) 100%);
+    background: -webkit-linear-gradient(147deg, rgba(147, 212, 253, 1) 0%, rgba(250, 179, 190, 1) 100%);
+    background: linear-gradient(147deg, rgba(147, 212, 253, 1) 0%, rgba(250, 179, 190, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93d4fd", endColorstr="#fab3be", GradientType=1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    width: 100%;
+    min-height: 30px;
+    height: calc(3vw + 4vh);
+    color: #fff;
+    background-color: #222;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 2px inset #f0f;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+#posts{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.post-hash{
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 10px;
+    color: #000;
+    display: block;
+}
+
+.post{
+    background-color: #eee;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: initial;
+    -webkit-user-select: initial;
+}
